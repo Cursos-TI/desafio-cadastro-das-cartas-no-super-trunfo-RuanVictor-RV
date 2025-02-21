@@ -2,17 +2,26 @@
 
 int main() {
     printf("Jogo do super trunfo!");
+
+    //variaveis:
+    char UF[5];
+    //código da cidade
+    char nome [50];
+    //nome da cidade
+    int população;
+    //numero habitantes da cidade
+    float aréa população;
+    //quantidade populacional
+    float pib;
+    //soma de todos os bens e serviços finais produzidos por um país
+    int pontos turisticos;
+    //quantidade de pontos turisticos da cidade
+
     
     return 0;
 }
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
- //atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos
+ //atributos: número de pontos turísticos
     
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
