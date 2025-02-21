@@ -24,7 +24,7 @@ int main() {
     scanf("%d",&populacao);
     //exemplo: 1234567 (numero inteiro)
     
-    printf("Digite a area populacional(exemplo: 123.3 ou 1.234.5 (km², não incluir letras)): \n");
+    printf("Digite a area populacional(exemplo: 123.4 ou 1234.5 (km², não incluir letras)): \n");
     scanf("%f",&areaPopulacional);
     //exemplo: 123.45 (numero com virtula(ponto))
 
@@ -32,7 +32,7 @@ int main() {
     scanf("%d",&pontosTuristicos);
     //exemplo: 25 (numero inteiro)
 
-    printf("Digite o pib aproximado(exemplo: 12.345(B)): \n");
+    printf("Digite o pib aproximado(exemplo: 12.345(B) ou (M) 1.234.0): \n");
     scanf("%f",&pib);
     //exemplo: 25.3 (numero com virtula(ponto))
 
