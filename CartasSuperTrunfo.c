@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-//variaveis
 int main() {
+    //variaveis carta 1
     char estado [50];
     char cidade [50];
-    char UF[5]
+    char UF[5];
     int populacao;
     float areaPopulacional;
     int pontosTuristicos;
@@ -22,7 +22,7 @@ int main() {
     scanf("%s", estado);
 
     printf("Digite uma cidade deste estado: \n");
-    scanf("%s", nome);
+    scanf("%s", cidade);
 
     printf("Digite a UF deste estado escolhido: \n");
     scanf("%s", UF);
@@ -41,7 +41,34 @@ int main() {
 
     printf("Digite o pib aproximado(exemplo: 12.345(B) ou (M) 1.234.0): \n");
     scanf("%f",&pib);
-    //exemplo: 25.3 (numero com virtula(ponto))
+    //exemplo: 25.3 (numero com virtula(ponto) 
 
-    return 0;
-}
+    printf("**Carta 1:** \n");
+    //apresentação da carta 1 (colocar no final 2x)
+
+    printf("Estado: %s\n", estado);
+    printf("Cidade: %s\n", cidade);
+    printf("UF: %s\n", UF);
+    printf("População: %d habitantes\n", populacao);
+    printf("Área Populacional: %.2f km²\n", areaPopulacional);
+    printf("Pontos Turísticos: %d\n", pontosTuristicos);
+    printf("PIB: R$ %.2f milhões\n", pib);
+
+    //variaveis carta 2:
+    char estado1[50];
+    char cidade1[50];
+    char UF1[5];
+    int populacao1;
+    float areaPopulacional1;
+    int pontosTuristicos1;
+    float pib1;
+
+    //começo carta 2
+    printf("Digite um estado do Brasil: \n");
+    scanf("%s",&estado1);
+
+    //repetir as perguntas colocando 1 no final para carta 2
+
+
+        return 0;
+    }
